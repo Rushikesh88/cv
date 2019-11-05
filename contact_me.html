@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    
+    <header>
+        <meta charset="utf-8">
+        <title>⬓ Contact Me</title>
+    </header>
+    
+    <body>
+        <table cellspacing="10">
+            <tr>
+            <td>
+            <a href="index.html" target="_blank"><img src="photon-plus-new-logo.png" width="200"></a></td>
+
+            <td>    
+            <h2>My Contact</h2>
+            <p>Email:
+                <a href="mailto:nowhere@mozilla.org">sample@xyz.com</a></p>
+            <p>Mobile:
+                <a href="tel:+91123456">9876543210</a></p>
+
+            <table border="2">
+                <thead style="background-color: cadetblue; color: azure">
+                    <th>Years</th>
+                    <th>Description</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                    <td style="background-color: antiquewhite">2005-08</td>    
+                    <td>Lorem Ipsum</td>
+                    </tr>
+
+                    <tr>
+                    <td>2008-12</td>
+                    <td>Lorem Ipsum</td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>    
+            </tr>    
+        </table>
+        <hr>
+        <form action="mailto:sample@xyz.com" enctype="text/plain" method="post">
+            <label>Name</label>
+            <input type="text" name="Your Name" value="" placeholder="Enter your name">
+            <label>Password</label>
+            <input type="password" value="" placeholder="Enter your password">
+            <br>
+            <label>Do you agree</label>
+            <input type="checkbox">
+            
+            <label>Yes</label>
+            <input type="radio" name="Question" checked>
+            <label>No</label>
+            <input type="radio" name="Question">
+            <br>
+            <label>Pick Color</label>
+            <input type="color" name="Pick_color" value="#ff0000">
+            
+            <label>Calender</label>
+            <input type="date" name="Selected Date" id="Colorwell" value="2019-01-01">
+            <br>
+            <label>Price</label>
+            <input type="range" name="Range" id="Price" min="0" max="1000" value="100" step="10">
+            <br>
+            <label>Choose File</label>
+            <input type="file" name="Comment" id="Photo" accept="image/jpeg, image/png">
+            <br>
+            <textarea name="desc" rows="10" cols="40">Comment</textarea>
+            <br>
+            <input type="submit" value="Submit" name="">
+            
+        </form>
+        
+    </body>
+</html>
